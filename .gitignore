@@ -1,2 +1,5 @@
 .vscode
 bubbleSort.exe
+mergeSort.exe
+quickSort.exe
+sellectionSort.exe
