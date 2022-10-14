@@ -1,13 +1,13 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main()
 {
-    cout<<"\n\nEnter N";
+    cout<<"\n\nEnter N"<<endl;
     int n;
     cin>>n;
     int a[n];
-    cout<<"Enter elements ";
+    cout<<"Enter elements "<<endl;
     for(int i=0; i<n; i++) {
         cin>>a[i];
     }
@@ -18,9 +18,7 @@ int main()
         {
             if(a[j] > a[j+1])
             {
-                int temp = a[j];
-                a[j] = a[j+1];
-                a[j+1] = temp;
+                swap(a[j],a[j+1]);
             }
         }
     }
